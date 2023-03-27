@@ -1,0 +1,46 @@
+body{
+    background-color: #ffb703;
+    font-family: 'Roboto', sans-serif;
+    }
+
+header{
+    background-color: #9d0208;
+    color: #94595b;
+    padding: 50px 50px;
+    margin: 20px;
+    }
+
+.secciones{
+    width: 100%;
+    text-align: center;
+    
+}
+
+section{
+    display: inline-block;
+    margin: 25px;
+    background-color: #4b0305;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #3b2d08;
+    border: 1px solid gray;
+    
+
+}
+
+.alemania{
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    
+}
+
+.Descriptions{
+    width: 250px;
+   }
+
+#cuerpo {
+    background-color: #cc5e62;
+    padding: 20px;
+    margin: 0 20px;
+}

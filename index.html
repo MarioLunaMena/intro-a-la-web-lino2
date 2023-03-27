@@ -4,21 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primer html con css</title>
+    <title>Display inline vs block</title>
     <link href="style.css" rel="stylesheet", type="text/css" />
+    <style>
+        .inline {
+            display: inline; 
+            border: 2px solid red;
+        }
+        .block {
+            display:block; 
+            border: 2px solid blue;
+        }
+    </style>
 </head>
 <body>
-   <h1 style="style.css: blueviolet;"> Bienvenidos a mi primer HTML <a href="https://www.facebook.com/"> facebook</a></h1>
-    <h2> Este es un subtitulo Nivel 2</h2>
-    <h3> Este es un subtitulo Nivel 3</h3>
-    <p> Este es el primer párrafo &lt; p&gt;</p>
-    <ul>
-        <li>Este es mi primer elemento en una lista</li>
-        <li></li>
-        <li>Este es el tercer elemento en una lista</li>
-        <li>Este es el cuarto elemento en una lista</li>
-    </ul>
-    <a href="https://www.facebook.com/"> facebook</a>  
+    <h1>Display inline vs block</h1>
+    <span class="inline">InLine</span>
+    <span class="inline">InLine</span>
+    <span class="inline">InLine</span>
 
+    <p> Este es un ejemplo de Display inline </p>
+    <div class="block">Block</div>
+    <div class="block">Block</div>
+    <div class="block">Block</div>
+
+    <p> Este es un ejemplo de Display block </p>
 </body>
 </html>
